@@ -1,0 +1,1208 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09AAA08CBA34B3A1914FDE4042892640 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8425360770EB2F5424DCD71932BCC942 /* Then.framework */; };
+		11BF26282F693C58B01C1271A906AA13 /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57A83B410A6BE17A10F1CF5358BE1F0 /* TinyConstraints+superview.swift */; };
+		24A7C52E60DC0942DAA0F7F5EA5FD544 /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED174033D3D605E175D18A6E8F15297F /* TinyConstraints.framework */; };
+		299C0A7EF8963F1BBFA57F36FEC0BA62 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B003A59842F584C2F2BEF796A42479 /* Stack.swift */; };
+		2D0FD55619B5134BC475C67AC00C5DE2 /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4F820EB6E6727F7397BE2F488B86BA /* TinyEdgeInsets.swift */; };
+		2F6394DD7716C3204FEBA87EA977E51F /* Pods-SlidingHeaderPageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0280940E56A427A202CB0E45987AF756 /* Pods-SlidingHeaderPageViewController_Example-dummy.m */; };
+		3FB41485165C53F02FC5AF41156AECA6 /* Collection+SafeAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C17F42560319BEF8E3F289B2B42428 /* Collection+SafeAccess.swift */; };
+		42F6DAD18814971F4D7F5BA7F52DF735 /* Pods-SlidingHeaderPageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D659FCA42EB0408E39CD8DBC3A882A7D /* Pods-SlidingHeaderPageViewController_Tests-dummy.m */; };
+		504928573A80A0DC69CC12B4C75A88C0 /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C7339FE5ECB44318DFABAAB1A5DB4B /* Constrainable.swift */; };
+		53B4420F4DA881AB1E22BCA5FFCAA5FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9A4FAD236C94914BBBF4E7F8A7C77B /* Foundation.framework */; };
+		62F255DA75F893DBDD96281498FE2B19 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2141114C4E54333E7553E2336C066 /* TinyConstraints.swift */; };
+		6D5564251B2703961E96F2D1BC86B1C5 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D4F876EE266D8F89BDD64310E20203 /* Constraints.swift */; };
+		721F148FA0A5D9C73D4CCBF6DACF2A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9A4FAD236C94914BBBF4E7F8A7C77B /* Foundation.framework */; };
+		7BED7854801E5C00677ECD624A0F8C3C /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1534819B8A889D73DB300DFF6713F8A /* Then.swift */; };
+		8F744FE809AC7332FBBB1BFA5E55C61B /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A1C4B5E5877683A104758B344D8D7D /* Abstraction.swift */; };
+		A38648567FBCE7CADDDD8240259E1DA4 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E44001D039725974DD2BCBBC6AA0B5B /* TinyConstraints-dummy.m */; };
+		A6B1B845FB16B467742D5D5CCDCF240C /* Pods-SlidingHeaderPageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CB3C47372A6BFA0E204B51DB66BC42 /* Pods-SlidingHeaderPageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB5B42F6AD8CC1C7319C1A57A3B62747 /* SlidingHeaderPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B523630BE1FD02EE246B06DD343F02 /* SlidingHeaderPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE4F0DEE65D15244E34A6ED111165486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9A4FAD236C94914BBBF4E7F8A7C77B /* Foundation.framework */; };
+		CA144745C7A1B835D45838095627E021 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9278A523338F0C1D79026835DB9F8680 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97349E8656B9EE0C058BE09279A8291 /* SlidingHeaderPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B743523DB9DAEF4020108E88AB5177E7 /* SlidingHeaderPageViewController-dummy.m */; };
+		E22A84C2BA2E3ADD122A48E8C2B014EF /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4FE427DA7479CFB94B304723677602 /* Then-dummy.m */; };
+		E7695218A9E832E923DAE5C252361340 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9A4FAD236C94914BBBF4E7F8A7C77B /* Foundation.framework */; };
+		EE1D1D30FD6BAC14691453386C702F68 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DD9AD106E334A655F3E74CAB69D52 /* PageViewController.swift */; };
+		F1339D28631FD919B43DA3B1CCF91238 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F9A4FAD236C94914BBBF4E7F8A7C77B /* Foundation.framework */; };
+		F4554472BD968280ACE55FDC8D3043D5 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3FA788E2202A661B1C67781C79D082 /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF1791395A580E00688AD5313BD55F5C /* Pods-SlidingHeaderPageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC8A4BA1B267BACD5905E07F3827B684 /* Pods-SlidingHeaderPageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1ED0CE862FC44B50BE4A479051AF8863 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+		31FD001B93EC1B6DFAFA8F8BE7E46D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BB2F3C271B29A6095C501DC31699DFF;
+			remoteInfo = "Pods-SlidingHeaderPageViewController_Example";
+		};
+		44436D5829FA97A1835C1DDF1B6C0DF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+		57A66D58CECAE2730F50FF1E0389F378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10457D9352EB2F19022D9219BF1CBB7;
+			remoteInfo = SlidingHeaderPageViewController;
+		};
+		6B540CCB073049409DD311D42967D002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45C4E325E7851DD54CC3AD44C7A71935;
+			remoteInfo = TinyConstraints;
+		};
+		823D3BB78C98AD48E2594A830C0CC1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C17AEFC79E770A2906EFAAB1A3757406;
+			remoteInfo = Then;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0280940E56A427A202CB0E45987AF756 /* Pods-SlidingHeaderPageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlidingHeaderPageViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		09CD0F146BD7E8271E627FD892C33227 /* Pods-SlidingHeaderPageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlidingHeaderPageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1203BE44BC91BF735570E8828F263B0D /* Then.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.release.xcconfig; sourceTree = "<group>"; };
+		1C88A1991933C652F7D0DAC531359475 /* Pods-SlidingHeaderPageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlidingHeaderPageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E44001D039725974DD2BCBBC6AA0B5B /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
+		20445685F3698B0A7E8073530C09D827 /* Pods-SlidingHeaderPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlidingHeaderPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		256D92DB76610CCD17B0C395D856BEC9 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
+		29D4F876EE266D8F89BDD64310E20203 /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		2AE59AD3B3B3CC6E8087F07BA639964F /* SlidingHeaderPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SlidingHeaderPageViewController-Info.plist"; sourceTree = "<group>"; };
+		2EC2141114C4E54333E7553E2336C066 /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
+		2F9A4FAD236C94914BBBF4E7F8A7C77B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36A1C4B5E5877683A104758B344D8D7D /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
+		37B523630BE1FD02EE246B06DD343F02 /* SlidingHeaderPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlidingHeaderPageViewController-umbrella.h"; sourceTree = "<group>"; };
+		3D4F820EB6E6727F7397BE2F488B86BA /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
+		40C17F42560319BEF8E3F289B2B42428 /* Collection+SafeAccess.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Collection+SafeAccess.swift"; path = "SlidingHeaderPageViewController/Classes/Collection+SafeAccess.swift"; sourceTree = "<group>"; };
+		47BED16DB91B54AC569AEEC772BCCDB6 /* SlidingHeaderPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SlidingHeaderPageViewController.modulemap; sourceTree = "<group>"; };
+		47FA17926594CEB6B0DC389B6A5F8721 /* Pods_SlidingHeaderPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlidingHeaderPageViewController_Example.framework; path = "Pods-SlidingHeaderPageViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48B003A59842F584C2F2BEF796A42479 /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
+		4BCC001797DA4975811DF40A1272A40C /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
+		5D4FE427DA7479CFB94B304723677602 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
+		5F322D53544A600451C46C79CCABA610 /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
+		61CB3C47372A6BFA0E204B51DB66BC42 /* Pods-SlidingHeaderPageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlidingHeaderPageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
+		641DD9AD106E334A655F3E74CAB69D52 /* PageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PageViewController.swift; path = SlidingHeaderPageViewController/Classes/PageViewController.swift; sourceTree = "<group>"; };
+		7E626CF0281D82EE58D5909EC8F7AAB6 /* Pods-SlidingHeaderPageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlidingHeaderPageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F7491D6A13A71C3DBBEE8772282972B /* TinyConstraints.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.release.xcconfig; sourceTree = "<group>"; };
+		820F093BF671E8459F6A3FC8F9C71444 /* SlidingHeaderPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SlidingHeaderPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		8425360770EB2F5424DCD71932BCC942 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88720B7F1EB4D081F92025F9A217B27E /* SlidingHeaderPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlidingHeaderPageViewController.debug.xcconfig; sourceTree = "<group>"; };
+		8AB3E6BA9B9CA880222304999DCE64A3 /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
+		9278A523338F0C1D79026835DB9F8680 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
+		9317E4947CA2FE1B5D5999034C09CCA7 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Then.framework; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BC2860A37CC8B8626400427CAE71DF4 /* SlidingHeaderPageViewController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SlidingHeaderPageViewController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0C7339FE5ECB44318DFABAAB1A5DB4B /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
+		A27BE432F0424902A27D3A28A8FE944D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A8947B29665CC89CB75858E66EC6EEC6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA9720E05533536A07AF3E26E9111531 /* Pods-SlidingHeaderPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlidingHeaderPageViewController_Example.modulemap"; sourceTree = "<group>"; };
+		B57A83B410A6BE17A10F1CF5358BE1F0 /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
+		B68E312830FE74EAB2729D1ACB932ECA /* Pods-SlidingHeaderPageViewController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlidingHeaderPageViewController_Tests-Info.plist"; sourceTree = "<group>"; };
+		B743523DB9DAEF4020108E88AB5177E7 /* SlidingHeaderPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SlidingHeaderPageViewController-dummy.m"; sourceTree = "<group>"; };
+		B8CC57EC010CA7574EFF35A6AAD8040B /* Pods-SlidingHeaderPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SlidingHeaderPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		B9C0EB17C6CB86381E81CF80C9048209 /* Pods-SlidingHeaderPageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SlidingHeaderPageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C125D0B702098D2F36295FA95F2B6702 /* Then-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Then-Info.plist"; sourceTree = "<group>"; };
+		C1534819B8A889D73DB300DFF6713F8A /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
+		C391FA4BA6992B00E6D41803F44954AD /* SlidingHeaderPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SlidingHeaderPageViewController.release.xcconfig; sourceTree = "<group>"; };
+		CBD6AFCC18A029156DA8D9BFF81A236F /* Pods_SlidingHeaderPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SlidingHeaderPageViewController_Tests.framework; path = "Pods-SlidingHeaderPageViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D659FCA42EB0408E39CD8DBC3A882A7D /* Pods-SlidingHeaderPageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SlidingHeaderPageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		D673D89E391346E4E56C14B8298C96A5 /* SlidingHeaderPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SlidingHeaderPageViewController.framework; path = SlidingHeaderPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5BB7AB82123864D6FD0EBA24A2B55D /* Pods-SlidingHeaderPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlidingHeaderPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E0382E9D222D2C23181AE02C8C61467C /* Pods-SlidingHeaderPageViewController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SlidingHeaderPageViewController_Example-Info.plist"; sourceTree = "<group>"; };
+		E1EA0333DA017519FE4271D534672633 /* Then.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.debug.xcconfig; sourceTree = "<group>"; };
+		E8A154F7D4E2BDDA21A2B6584B53193A /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Then.modulemap; sourceTree = "<group>"; };
+		EA4FC1FAA18A4527FD37B4D8B22CEE87 /* Pods-SlidingHeaderPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlidingHeaderPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED174033D3D605E175D18A6E8F15297F /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F109969A481862D74C61E3E713E466E8 /* Pods-SlidingHeaderPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SlidingHeaderPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F168F23C5C5213ED14BB0307DAB8A67B /* Pods-SlidingHeaderPageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SlidingHeaderPageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FA5419ADF8D9D896736F1801B9977C7B /* TinyConstraints.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.debug.xcconfig; sourceTree = "<group>"; };
+		FB3FA788E2202A661B1C67781C79D082 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
+		FC8A4BA1B267BACD5905E07F3827B684 /* Pods-SlidingHeaderPageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SlidingHeaderPageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		612BEABD26251EEC286E701251E12E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721F148FA0A5D9C73D4CCBF6DACF2A64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75FC5B1AAFDED94B2758148918505545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7695218A9E832E923DAE5C252361340 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C2C8F6B25A67836965E0528BCCD863A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE4F0DEE65D15244E34A6ED111165486 /* Foundation.framework in Frameworks */,
+				09AAA08CBA34B3A1914FDE4042892640 /* Then.framework in Frameworks */,
+				24A7C52E60DC0942DAA0F7F5EA5FD544 /* TinyConstraints.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888453F82B292DF85D858E4D6BF3A88B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B4420F4DA881AB1E22BCA5FFCAA5FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C6837A34C48A3832BC5DDAB2BE8C2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1339D28631FD919B43DA3B1CCF91238 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F0D69CB2F5A220D23A4065FC8EDE66 /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				36A1C4B5E5877683A104758B344D8D7D /* Abstraction.swift */,
+				A0C7339FE5ECB44318DFABAAB1A5DB4B /* Constrainable.swift */,
+				29D4F876EE266D8F89BDD64310E20203 /* Constraints.swift */,
+				48B003A59842F584C2F2BEF796A42479 /* Stack.swift */,
+				2EC2141114C4E54333E7553E2336C066 /* TinyConstraints.swift */,
+				B57A83B410A6BE17A10F1CF5358BE1F0 /* TinyConstraints+superview.swift */,
+				3D4F820EB6E6727F7397BE2F488B86BA /* TinyEdgeInsets.swift */,
+				DEDA2C03CE7F1A7813C8D27B60190ACE /* Support Files */,
+			);
+			name = TinyConstraints;
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
+		190D08E4542A75DCDC3F17C0460EE55F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F787BF81A2C9070943310C0C385EA19A /* SlidingHeaderPageViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		1F295A5141A1D648537155046B7A0830 /* Pods-SlidingHeaderPageViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B8CC57EC010CA7574EFF35A6AAD8040B /* Pods-SlidingHeaderPageViewController_Tests.modulemap */,
+				B9C0EB17C6CB86381E81CF80C9048209 /* Pods-SlidingHeaderPageViewController_Tests-acknowledgements.markdown */,
+				1C88A1991933C652F7D0DAC531359475 /* Pods-SlidingHeaderPageViewController_Tests-acknowledgements.plist */,
+				D659FCA42EB0408E39CD8DBC3A882A7D /* Pods-SlidingHeaderPageViewController_Tests-dummy.m */,
+				B68E312830FE74EAB2729D1ACB932ECA /* Pods-SlidingHeaderPageViewController_Tests-Info.plist */,
+				61CB3C47372A6BFA0E204B51DB66BC42 /* Pods-SlidingHeaderPageViewController_Tests-umbrella.h */,
+				EA4FC1FAA18A4527FD37B4D8B22CEE87 /* Pods-SlidingHeaderPageViewController_Tests.debug.xcconfig */,
+				F109969A481862D74C61E3E713E466E8 /* Pods-SlidingHeaderPageViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-SlidingHeaderPageViewController_Tests";
+			path = "Target Support Files/Pods-SlidingHeaderPageViewController_Tests";
+			sourceTree = "<group>";
+		};
+		34EBFA981341A45A4A1470ACF23EF816 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C770F2E9D9F3D60DFBB23D4BF593D113 /* Pods-SlidingHeaderPageViewController_Example */,
+				1F295A5141A1D648537155046B7A0830 /* Pods-SlidingHeaderPageViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		373C8DE5BC20C7675C63C0B4A4BE47CC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2F9A4FAD236C94914BBBF4E7F8A7C77B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		689565D19AF581F7A6B67E3C52596C7E /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				C1534819B8A889D73DB300DFF6713F8A /* Then.swift */,
+				CF1906CD1210F463D0F3EADFB2E006BC /* Support Files */,
+			);
+			name = Then;
+			path = Then;
+			sourceTree = "<group>";
+		};
+		8A40F0238A9C356E20013A5DFAF85EB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47FA17926594CEB6B0DC389B6A5F8721 /* Pods_SlidingHeaderPageViewController_Example.framework */,
+				CBD6AFCC18A029156DA8D9BFF81A236F /* Pods_SlidingHeaderPageViewController_Tests.framework */,
+				D673D89E391346E4E56C14B8298C96A5 /* SlidingHeaderPageViewController.framework */,
+				9317E4947CA2FE1B5D5999034C09CCA7 /* Then.framework */,
+				248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28B4228D5E150A7BBBB5756513391D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8425360770EB2F5424DCD71932BCC942 /* Then.framework */,
+				ED174033D3D605E175D18A6E8F15297F /* TinyConstraints.framework */,
+				373C8DE5BC20C7675C63C0B4A4BE47CC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C770F2E9D9F3D60DFBB23D4BF593D113 /* Pods-SlidingHeaderPageViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AA9720E05533536A07AF3E26E9111531 /* Pods-SlidingHeaderPageViewController_Example.modulemap */,
+				7E626CF0281D82EE58D5909EC8F7AAB6 /* Pods-SlidingHeaderPageViewController_Example-acknowledgements.markdown */,
+				09CD0F146BD7E8271E627FD892C33227 /* Pods-SlidingHeaderPageViewController_Example-acknowledgements.plist */,
+				0280940E56A427A202CB0E45987AF756 /* Pods-SlidingHeaderPageViewController_Example-dummy.m */,
+				F168F23C5C5213ED14BB0307DAB8A67B /* Pods-SlidingHeaderPageViewController_Example-frameworks.sh */,
+				E0382E9D222D2C23181AE02C8C61467C /* Pods-SlidingHeaderPageViewController_Example-Info.plist */,
+				FC8A4BA1B267BACD5905E07F3827B684 /* Pods-SlidingHeaderPageViewController_Example-umbrella.h */,
+				20445685F3698B0A7E8073530C09D827 /* Pods-SlidingHeaderPageViewController_Example.debug.xcconfig */,
+				DA5BB7AB82123864D6FD0EBA24A2B55D /* Pods-SlidingHeaderPageViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-SlidingHeaderPageViewController_Example";
+			path = "Target Support Files/Pods-SlidingHeaderPageViewController_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				190D08E4542A75DCDC3F17C0460EE55F /* Development Pods */,
+				C28B4228D5E150A7BBBB5756513391D7 /* Frameworks */,
+				E7001D1BBAEC2906EEB2B3E7D4231AAF /* Pods */,
+				8A40F0238A9C356E20013A5DFAF85EB8 /* Products */,
+				34EBFA981341A45A4A1470ACF23EF816 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CF1906CD1210F463D0F3EADFB2E006BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8A154F7D4E2BDDA21A2B6584B53193A /* Then.modulemap */,
+				5D4FE427DA7479CFB94B304723677602 /* Then-dummy.m */,
+				C125D0B702098D2F36295FA95F2B6702 /* Then-Info.plist */,
+				256D92DB76610CCD17B0C395D856BEC9 /* Then-prefix.pch */,
+				9278A523338F0C1D79026835DB9F8680 /* Then-umbrella.h */,
+				E1EA0333DA017519FE4271D534672633 /* Then.debug.xcconfig */,
+				1203BE44BC91BF735570E8828F263B0D /* Then.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Then";
+			sourceTree = "<group>";
+		};
+		D75E1349B40C791AD7485D343EF88555 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47BED16DB91B54AC569AEEC772BCCDB6 /* SlidingHeaderPageViewController.modulemap */,
+				B743523DB9DAEF4020108E88AB5177E7 /* SlidingHeaderPageViewController-dummy.m */,
+				2AE59AD3B3B3CC6E8087F07BA639964F /* SlidingHeaderPageViewController-Info.plist */,
+				820F093BF671E8459F6A3FC8F9C71444 /* SlidingHeaderPageViewController-prefix.pch */,
+				37B523630BE1FD02EE246B06DD343F02 /* SlidingHeaderPageViewController-umbrella.h */,
+				88720B7F1EB4D081F92025F9A217B27E /* SlidingHeaderPageViewController.debug.xcconfig */,
+				C391FA4BA6992B00E6D41803F44954AD /* SlidingHeaderPageViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SlidingHeaderPageViewController";
+			sourceTree = "<group>";
+		};
+		DEDA2C03CE7F1A7813C8D27B60190ACE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB3E6BA9B9CA880222304999DCE64A3 /* TinyConstraints.modulemap */,
+				1E44001D039725974DD2BCBBC6AA0B5B /* TinyConstraints-dummy.m */,
+				5F322D53544A600451C46C79CCABA610 /* TinyConstraints-Info.plist */,
+				4BCC001797DA4975811DF40A1272A40C /* TinyConstraints-prefix.pch */,
+				FB3FA788E2202A661B1C67781C79D082 /* TinyConstraints-umbrella.h */,
+				FA5419ADF8D9D896736F1801B9977C7B /* TinyConstraints.debug.xcconfig */,
+				7F7491D6A13A71C3DBBEE8772282972B /* TinyConstraints.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinyConstraints";
+			sourceTree = "<group>";
+		};
+		E7001D1BBAEC2906EEB2B3E7D4231AAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				689565D19AF581F7A6B67E3C52596C7E /* Then */,
+				16F0D69CB2F5A220D23A4065FC8EDE66 /* TinyConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC03FED9DA658AD8D5C58093581EE23C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A27BE432F0424902A27D3A28A8FE944D /* LICENSE */,
+				A8947B29665CC89CB75858E66EC6EEC6 /* README.md */,
+				9BC2860A37CC8B8626400427CAE71DF4 /* SlidingHeaderPageViewController.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		F787BF81A2C9070943310C0C385EA19A /* SlidingHeaderPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40C17F42560319BEF8E3F289B2B42428 /* Collection+SafeAccess.swift */,
+				641DD9AD106E334A655F3E74CAB69D52 /* PageViewController.swift */,
+				EC03FED9DA658AD8D5C58093581EE23C /* Pod */,
+				D75E1349B40C791AD7485D343EF88555 /* Support Files */,
+			);
+			name = SlidingHeaderPageViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10327D233BCDBF22BF0B2E63D70CA688 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA144745C7A1B835D45838095627E021 /* Then-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		297C15F65EA9D4DB9E4703F71A70F7A0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1791395A580E00688AD5313BD55F5C /* Pods-SlidingHeaderPageViewController_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		817F1502DC2B8EB456BE04CBD8E9E25A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4554472BD968280ACE55FDC8D3043D5 /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FB2038EDCC70AFFB63A2387796D3B8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B1B845FB16B467742D5D5CCDCF240C /* Pods-SlidingHeaderPageViewController_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B98AD24EB554C880D8685E3611714D8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB5B42F6AD8CC1C7319C1A57A3B62747 /* SlidingHeaderPageViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E8776C6C75D14BD580CEA7E8512745B /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildPhases = (
+				817F1502DC2B8EB456BE04CBD8E9E25A /* Headers */,
+				A789459D1B3771215572C661AE443482 /* Sources */,
+				888453F82B292DF85D858E4D6BF3A88B /* Frameworks */,
+				713DCF2B261F32512A329494612CA7DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConstraints;
+			productName = TinyConstraints;
+			productReference = 248EB203AE249596FFC55952F5590D95 /* TinyConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9BB2F3C271B29A6095C501DC31699DFF /* Pods-SlidingHeaderPageViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DBCAB1843D7DE6ABC17ABC258B13EB5 /* Build configuration list for PBXNativeTarget "Pods-SlidingHeaderPageViewController_Example" */;
+			buildPhases = (
+				297C15F65EA9D4DB9E4703F71A70F7A0 /* Headers */,
+				C75E7F6A7C21B296553B92A4335F829E /* Sources */,
+				612BEABD26251EEC286E701251E12E67 /* Frameworks */,
+				C28A32ED99861F41A0DF812F4F2F467A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDFD4CD86A4F66F6BE68C5E0167E88BF /* PBXTargetDependency */,
+				E92F86A861BB9E2B59B4A499E73793BB /* PBXTargetDependency */,
+				7ED7E2832B776E5048DE80711FD9AFD4 /* PBXTargetDependency */,
+			);
+			name = "Pods-SlidingHeaderPageViewController_Example";
+			productName = "Pods-SlidingHeaderPageViewController_Example";
+			productReference = 47FA17926594CEB6B0DC389B6A5F8721 /* Pods_SlidingHeaderPageViewController_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C17AEFC79E770A2906EFAAB1A3757406 /* Then */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3254D16248CC1CC5FF0092254837FEDD /* Build configuration list for PBXNativeTarget "Then" */;
+			buildPhases = (
+				10327D233BCDBF22BF0B2E63D70CA688 /* Headers */,
+				C7E6481F2F1AF7278489146ABC301590 /* Sources */,
+				C2C6837A34C48A3832BC5DDAB2BE8C2C /* Frameworks */,
+				6B3DD37482E3F45F730FE8207085B1CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Then;
+			productName = Then;
+			productReference = 9317E4947CA2FE1B5D5999034C09CCA7 /* Then.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F10457D9352EB2F19022D9219BF1CBB7 /* SlidingHeaderPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAFAE7A3C888F8A6399D684AF036855 /* Build configuration list for PBXNativeTarget "SlidingHeaderPageViewController" */;
+			buildPhases = (
+				B98AD24EB554C880D8685E3611714D8A /* Headers */,
+				5983D8BF0083C85418F4D62696DA2217 /* Sources */,
+				7C2C8F6B25A67836965E0528BCCD863A /* Frameworks */,
+				6660AA687597E097C51D1F61BAF6F8C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7382B7E980D98D937462CB9850BE9364 /* PBXTargetDependency */,
+				79213659E4AF11ACDF94E45BDD89E079 /* PBXTargetDependency */,
+			);
+			name = SlidingHeaderPageViewController;
+			productName = SlidingHeaderPageViewController;
+			productReference = D673D89E391346E4E56C14B8298C96A5 /* SlidingHeaderPageViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA073E3FDB528331DF55B170680981CA /* Pods-SlidingHeaderPageViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19A85218BCA0C7FF5C340B8BE11CA105 /* Build configuration list for PBXNativeTarget "Pods-SlidingHeaderPageViewController_Tests" */;
+			buildPhases = (
+				B6FB2038EDCC70AFFB63A2387796D3B8 /* Headers */,
+				DADBA1D9E723E60DCA4692A5F65B199D /* Sources */,
+				75FC5B1AAFDED94B2758148918505545 /* Frameworks */,
+				441B7240930E3D2E34BCE1FE50DA0C18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50727386753D45C95F291F2EEBCC733C /* PBXTargetDependency */,
+			);
+			name = "Pods-SlidingHeaderPageViewController_Tests";
+			productName = "Pods-SlidingHeaderPageViewController_Tests";
+			productReference = CBD6AFCC18A029156DA8D9BFF81A236F /* Pods_SlidingHeaderPageViewController_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8A40F0238A9C356E20013A5DFAF85EB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BB2F3C271B29A6095C501DC31699DFF /* Pods-SlidingHeaderPageViewController_Example */,
+				FA073E3FDB528331DF55B170680981CA /* Pods-SlidingHeaderPageViewController_Tests */,
+				F10457D9352EB2F19022D9219BF1CBB7 /* SlidingHeaderPageViewController */,
+				C17AEFC79E770A2906EFAAB1A3757406 /* Then */,
+				45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		441B7240930E3D2E34BCE1FE50DA0C18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6660AA687597E097C51D1F61BAF6F8C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B3DD37482E3F45F730FE8207085B1CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713DCF2B261F32512A329494612CA7DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28A32ED99861F41A0DF812F4F2F467A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5983D8BF0083C85418F4D62696DA2217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB41485165C53F02FC5AF41156AECA6 /* Collection+SafeAccess.swift in Sources */,
+				EE1D1D30FD6BAC14691453386C702F68 /* PageViewController.swift in Sources */,
+				D97349E8656B9EE0C058BE09279A8291 /* SlidingHeaderPageViewController-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A789459D1B3771215572C661AE443482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F744FE809AC7332FBBB1BFA5E55C61B /* Abstraction.swift in Sources */,
+				504928573A80A0DC69CC12B4C75A88C0 /* Constrainable.swift in Sources */,
+				6D5564251B2703961E96F2D1BC86B1C5 /* Constraints.swift in Sources */,
+				299C0A7EF8963F1BBFA57F36FEC0BA62 /* Stack.swift in Sources */,
+				11BF26282F693C58B01C1271A906AA13 /* TinyConstraints+superview.swift in Sources */,
+				A38648567FBCE7CADDDD8240259E1DA4 /* TinyConstraints-dummy.m in Sources */,
+				62F255DA75F893DBDD96281498FE2B19 /* TinyConstraints.swift in Sources */,
+				2D0FD55619B5134BC475C67AC00C5DE2 /* TinyEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C75E7F6A7C21B296553B92A4335F829E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F6394DD7716C3204FEBA87EA977E51F /* Pods-SlidingHeaderPageViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E6481F2F1AF7278489146ABC301590 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E22A84C2BA2E3ADD122A48E8C2B014EF /* Then-dummy.m in Sources */,
+				7BED7854801E5C00677ECD624A0F8C3C /* Then.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DADBA1D9E723E60DCA4692A5F65B199D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F6DAD18814971F4D7F5BA7F52DF735 /* Pods-SlidingHeaderPageViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50727386753D45C95F291F2EEBCC733C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SlidingHeaderPageViewController_Example";
+			target = 9BB2F3C271B29A6095C501DC31699DFF /* Pods-SlidingHeaderPageViewController_Example */;
+			targetProxy = 31FD001B93EC1B6DFAFA8F8BE7E46D77 /* PBXContainerItemProxy */;
+		};
+		7382B7E980D98D937462CB9850BE9364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = 44436D5829FA97A1835C1DDF1B6C0DF5 /* PBXContainerItemProxy */;
+		};
+		79213659E4AF11ACDF94E45BDD89E079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = 1ED0CE862FC44B50BE4A479051AF8863 /* PBXContainerItemProxy */;
+		};
+		7ED7E2832B776E5048DE80711FD9AFD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = 45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */;
+			targetProxy = 6B540CCB073049409DD311D42967D002 /* PBXContainerItemProxy */;
+		};
+		BDFD4CD86A4F66F6BE68C5E0167E88BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SlidingHeaderPageViewController;
+			target = F10457D9352EB2F19022D9219BF1CBB7 /* SlidingHeaderPageViewController */;
+			targetProxy = 57A66D58CECAE2730F50FF1E0389F378 /* PBXContainerItemProxy */;
+		};
+		E92F86A861BB9E2B59B4A499E73793BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C17AEFC79E770A2906EFAAB1A3757406 /* Then */;
+			targetProxy = 823D3BB78C98AD48E2594A830C0CC1A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18F24D40244116E91EE2BDD11ECF69A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C391FA4BA6992B00E6D41803F44954AD /* SlidingHeaderPageViewController.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlidingHeaderPageViewController/SlidingHeaderPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlidingHeaderPageViewController/SlidingHeaderPageViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlidingHeaderPageViewController/SlidingHeaderPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = SlidingHeaderPageViewController;
+				PRODUCT_NAME = SlidingHeaderPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		202025859FCE21F4270470C244AD4571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20445685F3698B0A7E8073530C09D827 /* Pods-SlidingHeaderPageViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlidingHeaderPageViewController_Example/Pods-SlidingHeaderPageViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlidingHeaderPageViewController_Example/Pods-SlidingHeaderPageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C22F97CB58060B6F6EF4A82D98FCFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA4FC1FAA18A4527FD37B4D8B22CEE87 /* Pods-SlidingHeaderPageViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlidingHeaderPageViewController_Tests/Pods-SlidingHeaderPageViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlidingHeaderPageViewController_Tests/Pods-SlidingHeaderPageViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D969AD87F16B6DD578E4E2BB96A8D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7491D6A13A71C3DBBEE8772282972B /* TinyConstraints.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4996BF2B208213E29FFB54624118D06E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5BB7AB82123864D6FD0EBA24A2B55D /* Pods-SlidingHeaderPageViewController_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlidingHeaderPageViewController_Example/Pods-SlidingHeaderPageViewController_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlidingHeaderPageViewController_Example/Pods-SlidingHeaderPageViewController_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F8F88557A09C33DB5A0E9B9B83C5828 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F109969A481862D74C61E3E713E466E8 /* Pods-SlidingHeaderPageViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SlidingHeaderPageViewController_Tests/Pods-SlidingHeaderPageViewController_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SlidingHeaderPageViewController_Tests/Pods-SlidingHeaderPageViewController_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		828B032AC7C4588E33C1389F6E452CD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88720B7F1EB4D081F92025F9A217B27E /* SlidingHeaderPageViewController.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SlidingHeaderPageViewController/SlidingHeaderPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SlidingHeaderPageViewController/SlidingHeaderPageViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SlidingHeaderPageViewController/SlidingHeaderPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = SlidingHeaderPageViewController;
+				PRODUCT_NAME = SlidingHeaderPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C8EF42DF6E9CF9E784D425AB10A9A380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1EA0333DA017519FE4271D534672633 /* Then.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CBF313B884DCC4B24845DBC761F868D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1203BE44BC91BF735570E8828F263B0D /* Then.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Then-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE7BE51FB91B528D24E96D07B5E5131F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5419ADF8D9D896736F1801B9977C7B /* TinyConstraints.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/TinyConstraints-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19A85218BCA0C7FF5C340B8BE11CA105 /* Build configuration list for PBXNativeTarget "Pods-SlidingHeaderPageViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C22F97CB58060B6F6EF4A82D98FCFF4 /* Debug */,
+				7F8F88557A09C33DB5A0E9B9B83C5828 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E8776C6C75D14BD580CEA7E8512745B /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7BE51FB91B528D24E96D07B5E5131F /* Debug */,
+				3D969AD87F16B6DD578E4E2BB96A8D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3254D16248CC1CC5FF0092254837FEDD /* Build configuration list for PBXNativeTarget "Then" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8EF42DF6E9CF9E784D425AB10A9A380 /* Debug */,
+				CBF313B884DCC4B24845DBC761F868D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAFAE7A3C888F8A6399D684AF036855 /* Build configuration list for PBXNativeTarget "SlidingHeaderPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828B032AC7C4588E33C1389F6E452CD1 /* Debug */,
+				18F24D40244116E91EE2BDD11ECF69A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DBCAB1843D7DE6ABC17ABC258B13EB5 /* Build configuration list for PBXNativeTarget "Pods-SlidingHeaderPageViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				202025859FCE21F4270470C244AD4571 /* Debug */,
+				4996BF2B208213E29FFB54624118D06E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module SlidingHeaderPageViewController {
+  umbrella header "SlidingHeaderPageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

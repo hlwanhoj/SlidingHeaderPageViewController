@@ -1,0 +1,27 @@
+PODS:
+  - SlidingHeaderPageViewController (0.1.0):
+    - Then
+    - TinyConstraints
+  - Then (2.7.0)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - SlidingHeaderPageViewController (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Then
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  SlidingHeaderPageViewController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SlidingHeaderPageViewController: 96881161185b357829cecf114475cf1c18db760a
+  Then: acfe0be7e98221c6204e12f8161459606d5d822d
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: b6c2463a6f4883e6d39a86a04fecc3ed43f588f2
+
+COCOAPODS: 1.10.1

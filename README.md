@@ -1,6 +1,6 @@
 # SlidingHeaderPageViewController
 
-[![CI Status](https://img.shields.io/travis/Ho Lun Wan/SlidingHeaderPageViewController.svg?style=flat)](https://travis-ci.org/Ho Lun Wan/SlidingHeaderPageViewController)
+[![CI Status](https://img.shields.io/travis/hlwanhoj/SlidingHeaderPageViewController.svg?style=flat)](https://travis-ci.org/hlwanhoj/SlidingHeaderPageViewController)
 [![Version](https://img.shields.io/cocoapods/v/SlidingHeaderPageViewController.svg?style=flat)](https://cocoapods.org/pods/SlidingHeaderPageViewController)
 [![License](https://img.shields.io/cocoapods/l/SlidingHeaderPageViewController.svg?style=flat)](https://cocoapods.org/pods/SlidingHeaderPageViewController)
 [![Platform](https://img.shields.io/cocoapods/p/SlidingHeaderPageViewController.svg?style=flat)](https://cocoapods.org/pods/SlidingHeaderPageViewController)
@@ -22,7 +22,7 @@ pod 'SlidingHeaderPageViewController'
 
 ## Author
 
-Ho Lun Wan, lun.wan@keysocapp.com
+hlwanhoj, hlwanhoj@gmail.com
 
 ## License
 

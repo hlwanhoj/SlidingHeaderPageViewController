@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  SlidingHeaderPageViewController
 //
-//  Created by Ho Lun Wan on 05/18/2021.
-//  Copyright (c) 2021 Ho Lun Wan. All rights reserved.
+//  Created by hlwanhoj on 05/18/2021.
+//  Copyright (c) 2021 hlwanhoj. All rights reserved.
 //
 
 import UIKit
@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
